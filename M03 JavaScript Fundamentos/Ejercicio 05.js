@@ -89,26 +89,6 @@ function esVocal(letra) {
 }
        
 
-   /*if  (letra === "a" || "e" || "i" || "o" || "u" || "A" || "E" || "I" || "O" || "U" )  {
-   return ("Es vocal"); }
-       else if ( letra.length > 1 ) { 
-       return ("Dato incorrecto"); }
-            else  (letra != "a" || "e" || "i" || "o" || "u" || "A" || "E" || "I" || "O" || "U")
-            return ("Dato incorrecto")
-       }*/
-   
-  /* if ( letra === "a" || "e" || "i" || "o" || "u" || "A" || "E" || "I" || "O" || "U"  ) {
-   return ("Es vocal");}
-    else if (letra.length > 1 ) {
-      return ("Dato incorrecto") }
-      else 
-         return ("Dato incorrecto")
-      } */
-
-  /*    if ( letra === vocales ) {
-         return ("Es vocal");} */
-   
-
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
    esPositivo,
