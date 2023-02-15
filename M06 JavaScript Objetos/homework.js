@@ -143,7 +143,18 @@ function sumarLikesDeUsuario(objetoUsuario) {
    objetoUsuario["posts"].forEach(elemento => {
        suma = suma + elemento.likes;
    });
-   return suma;
+   return suma; 
+
+   // LA SIGUIENTE ES OTRA FORMA DE SOLUCIONAR ESTE EJERCICIO SIN USAR EL METODO .forEach
+
+ /*  for (var i = 0; i < objetoUsuario["posts"].length; i++) {
+      suma += objetoUsuario.posts[i].likes
+      };
+return suma;
+*/
+
+
+
 }
 
 
@@ -164,10 +175,10 @@ function agregarMetodoCalculoDescuento(objetoProducto) {
       objetoProducto.calcularPrecioDescuento = function (){
          precioTotal = this.precio * this.porcentajeDeDescuento
          precioFinal = this.precio - precioTotal
-         return precioFinal
+         return precioFinal // Esta linea escribe el total del producto
          };
       objetoProducto.calcularPrecioDescuento();
-      return objetoProducto
+      return objetoProducto //Toda funcion debe retornar algo
 
 
       
