@@ -151,7 +151,7 @@ function sumarLikesDeUsuario(objetoUsuario) {
       suma += objetoUsuario.posts[i].likes
       };
 return suma;
-*/
+*/ 
 
 
 
